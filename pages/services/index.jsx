@@ -31,8 +31,7 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-              tempora eligendi, quisquam tempore sint reiciendis.
+              Specialized in modern web development with focus on responsive design, user experience, and cutting-edge technologies.
             </motion.p>
           </div>
 

@@ -10,24 +10,24 @@ import "swiper/css/pagination";
 const testimonialData = [
   {
     image: "/t-avt-1.png",
-    name: "Anne Smith",
-    position: "Customer",
+    name: "React.js Development",
+    position: "Frontend Technology",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Proficient in building modern web applications using React.js, Next.js, and TypeScript. Experienced in state management, component architecture, and responsive design principles.",
   },
   {
     image: "/t-avt-2.png",
-    name: "Jane Doe",
-    position: "Customer",
+    name: "UI/UX Design",
+    position: "Design Skills",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Skilled in creating intuitive user interfaces with focus on user experience. Experienced with Tailwind CSS, Bootstrap, and modern design frameworks for responsive web design.",
   },
   {
     image: "/t-avt-3.png",
-    name: "Jhon Doe",
-    position: "Customer",
+    name: "Project Experience",
+    position: "Real-world Projects",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Successfully contributed to live projects including 'Zodyss – A Trusted Travel Agent Portal' with features like OTP verification, API integration, and responsive navigation.",
   },
 ];
 

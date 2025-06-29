@@ -1,25 +1,19 @@
 import Link from "next/link";
 
 import {
-  RiYoutubeLine,
-  RiInstagramLine,
-  RiFacebookLine,
-  RiDribbbleLine,
+  RiLinkedinLine,
   RiGithubLine,
-  RiPinterestLine,
 } from "react-icons/ri";
 
 export const socialData = [
-
   {
-    name: "Instagram",
-    link: "https://instagram.com",
-    Icon: RiInstagramLine,
+    name: "LinkedIn",
+    link: "https://linkedin.com/in/mohitkalal",
+    Icon: RiLinkedinLine,
   },
-
   {
     name: "Github",
-    link: "https://github.com/sanidhyy/modern-portfolio",
+    link: "https://github.com/mohitkalal",
     Icon: RiGithubLine,
   },
 ];

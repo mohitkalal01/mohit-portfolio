@@ -3,17 +3,18 @@ import { useState } from "react";
 import CountUp from "react-countup";
 import {
   FaCss3,
-  FaFigma,
   FaHtml5,
   FaJs,
   FaReact,
-  FaWordpress,
+  FaBootstrap,
 } from "react-icons/fa";
 import {
-  SiAdobephotoshop,
-  SiAdobexd,
-  SiFramer,
+  SiTypescript,
   SiNextdotjs,
+  SiTailwindcss,
+  SiJquery,
+  SiNetlify,
+  SiGithub,
 } from "react-icons/si";
 
 import Avatar from "../../components/Avatar";
@@ -26,33 +27,43 @@ export const aboutData = [
     title: "skills",
     info: [
       {
-        title: "Web Development",
+        title: "Programming Languages",
         icons: [
-          FaHtml5,
-          FaCss3,
           FaJs,
-          FaReact,
-          SiNextdotjs,
-          SiFramer,
-          FaWordpress,
+          SiTypescript,
         ],
       },
       {
-        title: "UI/UX Design",
-        icons: [FaFigma, SiAdobexd, SiAdobephotoshop],
+        title: "Web Technologies",
+        icons: [
+          SiNextdotjs,
+          FaReact,
+          FaHtml5,
+          FaCss3,
+          SiTailwindcss,
+          FaBootstrap,
+          SiJquery,
+        ],
+      },
+      {
+        title: "Tools & Platforms",
+        icons: [
+          SiGithub,
+          SiNetlify,
+        ],
       },
     ],
   },
   {
-    title: "awards",
+    title: "certifications",
     info: [
       {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
+        title: "JavaScript Projects – Great Learning",
+        stage: "2024",
       },
       {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
+        title: "Developer and Technology Job Simulation - Accenture UK",
+        stage: "2024",
       },
     ],
   },
@@ -60,33 +71,21 @@ export const aboutData = [
     title: "experience",
     info: [
       {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
-      },
-      {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
-      },
-      {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
+        title: "React.js Developer Intern - WebSenor, Udaipur",
+        stage: "January 24, 2025 – April 24, 2025",
       },
     ],
   },
   {
-    title: "credentials",
+    title: "education",
     info: [
       {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
+        title: "Master of Computer Application (MCA) - Bharati Vidyapeeth Deemed University, Pune",
+        stage: "2025 – 2027 (Ongoing)",
       },
       {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
-      },
-      {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
+        title: "Bachelor of Science (B.Sc.) - Pandit Deendayal Upadhyaya Shekhawati University, Sikar, Rajasthan",
+        stage: "2020 – 2023",
       },
     ],
   },
@@ -120,8 +119,7 @@ const About = () => {
             exit="hidden"
             className="h2"
           >
-            Captivating <span className="text-accent">stories</span> birth
-            magnificent designs.
+            Passionate about <span className="text-accent">creating</span> exceptional user experiences.
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
@@ -129,9 +127,7 @@ const About = () => {
             animate="show"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            10 years ago, I begin freelancing as a developer. Since then, I've
-            done remote work for agencies, consulted for startups, and
-            collabrated on digital products for business and consumer use.
+            I'm a motivated and detail-oriented software developer with practical experience in front-end web development and UI design. I specialize in building responsive, user-friendly interfaces using modern technologies including React.js, Next.js, TypeScript, and Tailwind CSS.
           </motion.p>
 
           {/* counters */}
@@ -145,40 +141,40 @@ const About = () => {
               {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={10} duration={5} />
+                  <CountUp start={0} end={1} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Years of experience.
                 </div>
               </div>
 
-              {/* clients */}
-              <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
-                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={250} duration={5} />
-                </div>
-                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Satisfied clients.
-                </div>
-              </div>
-
               {/* projects */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={650} duration={5} />
+                  <CountUp start={0} end={3} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Finished projects.
+                  Completed projects.
                 </div>
               </div>
 
-              {/* awards */}
-              <div className="relative flex-1">
+              {/* technologies */}
+              <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
                   <CountUp start={0} end={8} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Winning awards.
+                  Technologies mastered.
+                </div>
+              </div>
+
+              {/* certifications */}
+              <div className="relative flex-1">
+                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
+                  <CountUp start={0} end={2} duration={5} />
+                </div>
+                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
+                  Certifications earned.
                 </div>
               </div>
             </div>

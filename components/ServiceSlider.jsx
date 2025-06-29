@@ -1,8 +1,8 @@
 import {
-  RxCrop,
-  RxPencil2,
   RxDesktop,
-  RxReader,
+  RxMobile,
+  RxCode,
+  RxLayers,
   RxRocket,
   RxArrowTopRight,
 } from "react-icons/rx";
@@ -15,29 +15,29 @@ import "swiper/css/pagination";
 
 const serviceData = [
   {
-    Icon: RxCrop,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    Icon: RxPencil2,
-    title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    Icon: RxCode,
+    title: "React Development",
+    description: "Building modern, interactive web applications using React.js, Next.js, and TypeScript with clean, maintainable code.",
   },
   {
     Icon: RxDesktop,
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Responsive Design",
+    description: "Creating mobile-first, responsive websites that work seamlessly across all devices and screen sizes.",
   },
   {
-    Icon: RxReader,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    Icon: RxLayers,
+    title: "UI/UX Design",
+    description: "Designing intuitive user interfaces with focus on user experience, accessibility, and modern design principles.",
+  },
+  {
+    Icon: RxMobile,
+    title: "Frontend Development",
+    description: "Developing frontend solutions using HTML, CSS, JavaScript, Tailwind CSS, and Bootstrap frameworks.",
   },
   {
     Icon: RxRocket,
-    title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Modern Technologies",
+    description: "Implementing cutting-edge web technologies and best practices for optimal performance and user experience.",
   },
 ];
 

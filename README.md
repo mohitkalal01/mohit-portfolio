@@ -1,24 +1,23 @@
-
 <a name="readme-top"></a>
 
-# 💼 Mohit’s Modern Portfolio using Next.js & Framer Motion
+# 💼 Mohit Kalal's Modern Portfolio using Next.js & Framer Motion
 
 ![Portfolio Preview](./.github/images/img_main.png "Modern Portfolio")
 
-[![License](https://img.shields.io/github/license/mohitkalal01/mohit-portfolio?style=flat-square)](https://github.com/mohitkalal01/mohit-portfolio/blob/main/LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/mohitkalal01/mohit-portfolio?style=social)](https://github.com/mohitkalal01/mohit-portfolio/stargazers)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR_BADGE_ID/deploy-status)](https://your-netlify-site.netlify.app/)
+[![License](https://img.shields.io/github/license/mohitkalal/modern-portfolio?style=flat-square)](https://github.com/mohitkalal/modern-portfolio/blob/main/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/mohitkalal/modern-portfolio?style=social)](https://github.com/mohitkalal/modern-portfolio/stargazers)
 
 ---
 
 ## 👨‍💻 About Me
 
-I'm **Mohit Kalal**, a passionate Frontend Developer with experience in building responsive, user-centric web applications using modern tools like **React.js**, **Next.js**, and **Tailwind CSS**.
+I'm **Mohit Kalal**, a motivated and detail-oriented software developer with practical experience in front-end web development and UI design. I'm proficient in building responsive, user-friendly interfaces using modern technologies including React.js, Next.js, TypeScript, Tailwind CSS, and Bootstrap.
 
-📍 **Location:** Rajasthan, India  
+📍 **Location:** Udaipur, Rajasthan, India  
 📧 **Email:** kalalmohit003@gmail.com  
-🎓 **Education:** B.Sc. in Science, Technology & Society  
-🎯 **Goal:** To create elegant, accessible, and high-performance web solutions.
+📱 **Phone:** (+91) 9119369801  
+🎓 **Education:** MCA (Ongoing) - Bharati Vidyapeeth Deemed University, Pune  
+🎯 **Goal:** To contribute to impactful, real-world projects in a collaborative and fast-paced environment.
 
 ---
 
@@ -26,8 +25,11 @@ I'm **Mohit Kalal**, a passionate Frontend Developer with experience in building
 
 ![React](https://skillicons.dev/icons?i=react)
 ![Next.js](https://skillicons.dev/icons?i=next)
+![TypeScript](https://skillicons.dev/icons?i=typescript)
 ![JS](https://skillicons.dev/icons?i=js)
 ![Tailwind](https://skillicons.dev/icons?i=tailwind)
+![Bootstrap](https://skillicons.dev/icons?i=bootstrap)
+![Git](https://skillicons.dev/icons?i=git)
 ![Netlify](https://skillicons.dev/icons?i=netlify)
 
 ---
@@ -84,40 +86,49 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 🎓 Certifications
 
-- ✅ IBM Project Management Fundamentals – IBM
-- ✅ Cascading Style Sheets – Great Learning
+- ✅ JavaScript Projects – Great Learning
+- ✅ Developer and Technology Job Simulation - Accenture UK
 
 ---
 
 ## 📚 Projects
 
-- 🔹 **Modern Portfolio**: Responsive, animated developer portfolio using Next.js & Tailwind CSS
-- 🔹 **Interactive UI Components**: Framer Motion-based animations for smooth transitions
+- 🎲 **Dice Game (React.js)**: Interactive dice game with dynamic features and responsive interface
+- 📋 **MyProfileForm (React.js)**: Fully responsive personal portfolio website with Bootstrap
+- 🌐 **Personal Portfolio Website**: Modern portfolio with smooth scrolling and mobile-first design
+- 🏨 **Zodyss Travel Portal**: Live project - Trusted Travel Agent Portal with Next.js and TypeScript
+
+---
+
+## 💼 Work Experience
+
+**React.js Developer Intern** - WebSenor, Udaipur (January 24, 2025 – April 24, 2025)
+- Contributed to web applications using Next.js, React.js, TypeScript, and Tailwind CSS
+- Worked on "Zodyss – A Trusted Travel Agent Portal" project
+- Developed UI for 'Forgot Password' functionality with OTP verification
+- Integrated REST APIs for secure authentication and user validation
+- Fixed database issues and made navbar fully responsive
 
 ---
 
 ## 🧠 Skills
 
-- HTML / CSS / JavaScript
-- React.js / Next.js
-- jQuery
-- Tailwind CSS
-- Git & GitHub
+### Programming Languages
+- JavaScript, TypeScript
+
+### Web Technologies
+- Next.js, React.js, HTML, CSS, Tailwind CSS, jQuery, Bootstrap
+
+### Tools & Platforms
+- GitHub, VS Code, Netlify
 
 ---
 
-## ☕ Support
+## 🌐 Connect With Me
 
-If you like my work, consider supporting me!
-
-[<img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" width="200" />](https://www.buymeacoffee.com/mohitkalal)
-
----
-
-## 🌐 Follow Me
-
-- [GitHub](https://github.com/mohitkalal01)
-- [LinkedIn](https://www.linkedin.com/in/mohitkalal01) *(Add this if you have one)*
+- [GitHub](https://github.com/mohitkalal)
+- [LinkedIn](https://linkedin.com/in/mohitkalal)
+- [Portfolio](https://mohitkalal.dev)
 
 ---
 

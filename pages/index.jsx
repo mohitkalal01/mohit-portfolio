@@ -21,8 +21,8 @@ const Home = () => {
             exit="hidden"
             className="text-4xl md:text-5xl xl:text-6xl font-bold leading-tight text-white mb-6"
           >
-            Hi, I’m <span className="text-accent">Mohit Kalal</span><br />
-            Transforming Ideas Into <span className="text-accent">Digital Reality</span>
+            Hi, I'm <span className="text-accent">Mohit Kalal</span><br />
+            Frontend Developer & <span className="text-accent">UI Designer</span>
           </motion.h1>
 
           {/* Subtitle */}
@@ -33,7 +33,7 @@ const Home = () => {
             exit="hidden"
             className="text-base md:text-lg xl:text-xl max-w-2xl text-white mb-10 xl:mb-16"
           >
-            I’m a frontend developer who builds modern, responsive, and engaging websites. I focus on clean code, smooth animations, and pixel-perfect user interfaces — turning vision into fully functional web experiences.
+            Motivated and detail-oriented software developer with practical experience in front-end web development and UI design. Proficient in React.js, Next.js, TypeScript, Tailwind CSS, and modern web technologies.
           </motion.p>
 
           {/* Button */}

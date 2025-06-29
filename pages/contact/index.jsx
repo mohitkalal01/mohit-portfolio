@@ -40,6 +40,24 @@ const Contact = () => {
             Let's <span className="text-accent">connect.</span>
           </motion.h2>
 
+          {/* contact info */}
+          <motion.div
+            variants={fadeIn("up", 0.3)}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+            className="text-center mb-8"
+          >
+            <p className="text-white/60 mb-4">
+              Ready to discuss your next project? Feel free to reach out!
+            </p>
+            <div className="flex flex-col sm:flex-row justify-center gap-4 text-sm text-white/80">
+              <span>📧 kalalmohit003@gmail.com</span>
+              <span>📱 (+91) 9119369801</span>
+              <span>📍 Udaipur, Rajasthan</span>
+            </div>
+          </motion.div>
+
           {/* form */}
           <motion.form
             variants={fadeIn("up", 0.4)}

@@ -13,48 +13,56 @@ const workSlides = {
     {
       images: [
         {
-          title: "title",
+          title: "Dice Game",
           path: "/thumb1.jpg",
-          link: "http://example.com",
+          link: "https://github.com/mohitkalal/dice-game",
+          description: "React.js Dice Game with dynamic features and responsive interface"
         },
         {
-          title: "title",
+          title: "MyProfileForm",
           path: "/thumb2.jpg",
-          link: "http://example.com",
+          link: "https://github.com/mohitkalal/myprofileform",
+          description: "Fully responsive personal portfolio website with Bootstrap"
         },
         {
-          title: "title",
+          title: "Personal Portfolio",
           path: "/thumb3.jpg",
-          link: "http://example.com",
+          link: "https://github.com/mohitkalal/personal-portfolio",
+          description: "Modern portfolio website with smooth scrolling and mobile-first design"
         },
         {
-          title: "title",
+          title: "Zodyss Travel Portal",
           path: "/thumb4.jpg",
-          link: "http://example.com",
+          link: "#",
+          description: "Trusted Travel Agent Portal - Live project with Next.js and TypeScript"
         },
       ],
     },
     {
       images: [
         {
-          title: "title",
+          title: "Zodyss Travel Portal",
           path: "/thumb4.jpg",
-          link: "http://example.com",
+          link: "#",
+          description: "Tour package booking and management system"
         },
         {
-          title: "title",
+          title: "Dice Game",
           path: "/thumb1.jpg",
-          link: "http://example.com",
+          link: "https://github.com/mohitkalal/dice-game",
+          description: "Interactive dice game with player turns and visual feedback"
         },
         {
-          title: "title",
+          title: "MyProfileForm",
           path: "/thumb2.jpg",
-          link: "http://example.com",
+          link: "https://github.com/mohitkalal/myprofileform",
+          description: "Responsive portfolio with interactive navigation"
         },
         {
-          title: "title",
+          title: "Personal Portfolio",
           path: "/thumb3.jpg",
-          link: "http://example.com",
+          link: "https://github.com/mohitkalal/personal-portfolio",
+          description: "Showcasing skills and projects with modern design"
         },
       ],
     },
@@ -103,7 +111,7 @@ const WorkSlider = () => {
                       className="flex items-center gap-x-2 text-[13px] tracking-[0.2em]"
                     >
                       {/* title part 1 */}
-                      <div className="delay-100">LIVE</div>
+                      <div className="delay-100">{image.title}</div>
                       {/* title part 2 */}
                       <div className="translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150">
                         PROJECT
