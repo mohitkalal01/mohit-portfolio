@@ -11,34 +11,32 @@ const Home = () => {
     <div className="bg-primary/60 h-full">
       {/* text */}
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
-        <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
-          {/* title */}
+        <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto px-4">
+          
+          {/* Heading */}
           <motion.h1
             variants={fadeIn("down", 0.2)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1"
+            className="text-4xl md:text-5xl xl:text-6xl font-bold leading-tight text-white mb-6"
           >
-            Transforming Ideas <br /> Into{" "}
-            <span className="text-accent">Digital Reality</span>
+            Hi, I’m <span className="text-accent">Mohit Kalal</span><br />
+            Transforming Ideas Into <span className="text-accent">Digital Reality</span>
           </motion.h1>
 
-          {/* subtitle */}
+          {/* Subtitle */}
           <motion.p
             variants={fadeIn("down", 0.3)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+            className="text-base md:text-lg xl:text-xl max-w-2xl text-white mb-10 xl:mb-16"
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate,
-            exercitationem harum, quia nulla temporibus deleniti libero veniam
-            vero beatae numquam ducimus illum ab similique ipsam tempore fugit
-            quod laudantium debitis.
+            I’m a frontend developer who builds modern, responsive, and engaging websites. I focus on clean code, smooth animations, and pixel-perfect user interfaces — turning vision into fully functional web experiences.
           </motion.p>
 
-          {/* btn */}
+          {/* Button */}
           <div className="flex justify-center xl:hidden relative">
             <ProjectsBtn />
           </div>
@@ -53,8 +51,9 @@ const Home = () => {
           </motion.div>
         </div>
       </div>
-      {/* image */}
-      <div className="w-[1280px] h-full absolute right-0 bottom-0">
+
+      {/* Image + Effects */}
+      <div className="w-full h-full absolute right-0 bottom-0">
         {/* bg img */}
         <div
           role="img"
