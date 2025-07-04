@@ -15,54 +15,21 @@ const workSlides = {
         {
           title: "Dice Game",
           path: "/thumb1.jpg",
-          link: "https://github.com/mohitkalal/dice-game",
+          link: "https://github.com/mohitkalal01/dice-game",
+          liveDemo: "https://mohitkalal.vercel.app/", // Added live demo link
           description: "React.js Dice Game with dynamic features and responsive interface"
         },
         {
           title: "MyProfileForm",
           path: "/thumb2.jpg",
-          link: "https://github.com/mohitkalal/myprofileform",
+          link: "https://github.com/mohitkalal01/MyProfile-Form",
           description: "Fully responsive personal portfolio website with Bootstrap"
         },
         {
           title: "Personal Portfolio",
           path: "/thumb3.jpg",
-          link: "https://github.com/mohitkalal/personal-portfolio",
+          link: "https://github.com/mohitkalal01/mohit-portfolio",
           description: "Modern portfolio website with smooth scrolling and mobile-first design"
-        },
-        {
-          title: "Zodyss Travel Portal",
-          path: "/thumb4.jpg",
-          link: "#",
-          description: "Trusted Travel Agent Portal - Live project with Next.js and TypeScript"
-        },
-      ],
-    },
-    {
-      images: [
-        {
-          title: "Zodyss Travel Portal",
-          path: "/thumb4.jpg",
-          link: "#",
-          description: "Tour package booking and management system"
-        },
-        {
-          title: "Dice Game",
-          path: "/thumb1.jpg",
-          link: "https://github.com/mohitkalal/dice-game",
-          description: "Interactive dice game with player turns and visual feedback"
-        },
-        {
-          title: "MyProfileForm",
-          path: "/thumb2.jpg",
-          link: "https://github.com/mohitkalal/myprofileform",
-          description: "Responsive portfolio with interactive navigation"
-        },
-        {
-          title: "Personal Portfolio",
-          path: "/thumb3.jpg",
-          link: "https://github.com/mohitkalal/personal-portfolio",
-          description: "Showcasing skills and projects with modern design"
         },
       ],
     },
@@ -102,25 +69,42 @@ const WorkSlider = () => {
                     aria-hidden
                   />
 
-                  {/* title */}
+                  {/* title and links */}
                   <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20 transition-all duration-300">
-                    <Link
-                      href={image.link}
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      className="flex items-center gap-x-2 text-[13px] tracking-[0.2em]"
-                    >
-                      {/* title part 1 */}
+                    <div className="flex flex-col items-center gap-y-2 text-[13px] tracking-[0.2em]">
+                      {/* title */}
                       <div className="delay-100">{image.title}</div>
-                      {/* title part 2 */}
-                      <div className="translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150">
-                        PROJECT
-                      </div>
-                      {/* icon */}
-                      <div className="text-xl translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150">
-                        <BsArrowRight aria-hidden />
-                      </div>
-                    </Link>
+                      {/* project link */}
+                      <Link
+                        href={image.link}
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="flex items-center gap-x-2"
+                      >
+                        <div className="translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150">
+                          PROJECT
+                        </div>
+                        <div className="text-xl translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150">
+                          <BsArrowRight aria-hidden />
+                        </div>
+                      </Link>
+                      {/* live demo link for Dice Game */}
+                      {image.title === "Dice Game" && image.liveDemo && (
+                        <Link
+                          href={image.liveDemo}
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          className="flex items-center gap-x-2"
+                        >
+                          <div className="translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-200">
+                            LIVE DEMO
+                          </div>
+                          <div className="text-xl translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-200">
+                            <BsArrowRight aria-hidden />
+                          </div>
+                        </Link>
+                      )}
+                    </div>
                   </div>
                 </div>
               </div>

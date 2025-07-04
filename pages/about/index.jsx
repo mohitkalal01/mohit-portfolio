@@ -21,17 +21,14 @@ import Avatar from "../../components/Avatar";
 import Circles from "../../components/Circles";
 import { fadeIn } from "../../variants";
 
-//  data
+// Data
 export const aboutData = [
   {
     title: "skills",
     info: [
       {
         title: "Programming Languages",
-        icons: [
-          FaJs,
-          SiTypescript,
-        ],
+        icons: [FaJs, SiTypescript],
       },
       {
         title: "Web Technologies",
@@ -47,10 +44,7 @@ export const aboutData = [
       },
       {
         title: "Tools & Platforms",
-        icons: [
-          SiGithub,
-          SiNetlify,
-        ],
+        icons: [SiGithub, SiNetlify],
       },
     ],
   },
@@ -80,11 +74,13 @@ export const aboutData = [
     title: "education",
     info: [
       {
-        title: "Master of Computer Application (MCA) - Bharati Vidyapeeth Deemed University, Pune",
+        title:
+          "Master of Computer Application (MCA) - Bharati Vidyapeeth Deemed University, Pune",
         stage: "2025 – 2027 (Ongoing)",
       },
       {
-        title: "Bachelor of Science (B.Sc.) - Pandit Deendayal Upadhyaya Shekhawati University, Sikar, Rajasthan",
+        title:
+          "Bachelor of Science (B.Sc.) - Pandit Deendayal Upadhyaya Shekhawati University, Sikar, Rajasthan",
         stage: "2020 – 2023",
       },
     ],
@@ -98,7 +94,7 @@ const About = () => {
     <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
       <Circles />
 
-      {/* avatar img */}
+      {/* avatar image */}
       <motion.div
         variants={fadeIn("right", 0.2)}
         initial="hidden"
@@ -119,7 +115,9 @@ const About = () => {
             exit="hidden"
             className="h2"
           >
-            Passionate about <span className="text-accent">creating</span> exceptional user experiences.
+            Passionate about{" "}
+            <span className="text-accent">creating</span> exceptional user
+            experiences.
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
@@ -127,7 +125,11 @@ const About = () => {
             animate="show"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            I'm a motivated and detail-oriented software developer with practical experience in front-end web development and UI design. I specialize in building responsive, user-friendly interfaces using modern technologies including React.js, Next.js, TypeScript, and Tailwind CSS.
+            I'm a motivated and detail-oriented software developer with
+            practical experience in front-end web development and UI design. I
+            specialize in building responsive, user-friendly interfaces using
+            modern technologies including React.js, Next.js, TypeScript, and
+            Tailwind CSS.
           </motion.p>
 
           {/* counters */}
@@ -141,10 +143,10 @@ const About = () => {
               {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={1} duration={5} />
+                  <CountUp start={0} end={3} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Years of experience.
+                  months of experience as a React.js Developer.
                 </div>
               </div>
 
@@ -181,7 +183,7 @@ const About = () => {
           </motion.div>
         </div>
 
-        {/* info */}
+        {/* info section */}
         <motion.div
           variants={fadeIn("left", 0.4)}
           initial="hidden"
@@ -193,11 +195,14 @@ const About = () => {
             {aboutData.map((item, itemI) => (
               <div
                 key={itemI}
+                role="button"
+                tabIndex={0}
+                onClick={() => setIndex(itemI)}
+                onKeyDown={(e) => e.key === "Enter" && setIndex(itemI)}
                 className={`${
                   index === itemI &&
                   "text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300"
                 } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
-                onClick={() => setIndex(itemI)}
               >
                 {item.title}
               </div>
@@ -212,17 +217,19 @@ const About = () => {
               >
                 {/* title */}
                 <div className="font-light mb-2 md:mb-0">{item.title}</div>
-                <div className="hidden md:flex">-</div>
-                <div>{item.stage}</div>
+                {item.stage && <div className="hidden md:flex">-</div>}
+                {item.stage && <div>{item.stage}</div>}
 
-                <div className="flex gap-x-4">
-                  {/* icons */}
-                  {item.icons?.map((Icon, iconI) => (
-                    <div key={iconI} className="text-2xl text-white">
-                      <Icon />
-                    </div>
-                  ))}
-                </div>
+                {/* icons */}
+                {item.icons && (
+                  <div className="flex gap-x-4">
+                    {item.icons.map((Icon, iconI) => (
+                      <div key={iconI} className="text-2xl text-white">
+                        <Icon />
+                      </div>
+                    ))}
+                  </div>
+                )}
               </div>
             ))}
           </div>

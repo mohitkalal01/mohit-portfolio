@@ -8,12 +8,12 @@ import {
 export const socialData = [
   {
     name: "LinkedIn",
-    link: "https://linkedin.com/in/mohitkalal",
+    link: "https://www.linkedin.com/in/mohit-kalal-389521217/",
     Icon: RiLinkedinLine,
   },
   {
     name: "Github",
-    link: "https://github.com/mohitkalal",
+    link: "https://github.com/mohitkalal01",
     Icon: RiGithubLine,
   },
 ];
