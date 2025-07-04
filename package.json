@@ -35,16 +35,7 @@
     "url": "https://github.com/mohitkalal/modern-portfolio/issues",
     "email": "kalalmohit003@gmail.com"
   },
-  "funding": [
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/sanidhy"
-    },
-    {
-      "type": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/sanidhy"
-    }
-  ],
+ 
   "scripts": {
     "dev": "next dev",
     "build": "next build",
