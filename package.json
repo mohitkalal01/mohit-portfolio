@@ -5,37 +5,34 @@
   "author": {
     "name": "Mohit Kalal",
     "email": "kalalmohit003@gmail.com",
-    "url": "https://github.com/mohitkalal"
+    "url": "https://github.com/mohitkalal01"
   },
-  "description": "Mohit Kalal is a Frontend Developer with expertise in React.js, Next.js, TypeScript, and modern web technologies.",
+  "description": "Portfolio of Mohit Kalal, a Frontend Developer and UI Designer specializing in React.js, Next.js, TypeScript, and Tailwind CSS.",
   "keywords": [
-    "react",
-    "next",
-    "nextjs",
-    "html",
-    "css",
-    "javascript",
-    "js",
-    "typescript",
-    "tailwind",
-    "modern-ui",
-    "modern-ux",
+    "Mohit Kalal",
+    "Frontend Developer",
+    "UI Designer",
+    "React.js",
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "JavaScript",
     "portfolio",
-    "framer-motion",
-    "3d-website",
+    "Framer Motion",
+    "modern web development",
+    "UI/UX design",
     "particle-effect"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mohitkalal/modern-portfolio.git"
+    "url": "git+https://github.com/mohitkalal01/mohit-portfolio.git"
   },
-  "homepage": "https://github.com/mohitkalal/modern-portfolio#readme",
+  "homepage": "https://github.com/mohitkalal01/mohit-portfolio#readme",
   "bugs": {
-    "url": "https://github.com/mohitkalal/modern-portfolio/issues",
+    "url": "https://github.com/mohitkalal01/mohit-portfolio/issues",
     "email": "kalalmohit003@gmail.com"
   },
- 
   "scripts": {
     "dev": "next dev",
     "build": "next build",

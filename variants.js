@@ -24,3 +24,4 @@ export const fadeIn = (direction, delay) => {
     },
   };
 };
+//code updated

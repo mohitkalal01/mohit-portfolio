@@ -48,3 +48,4 @@ module.exports = {
   },
   plugins: [require("tailwind-scrollbar")],
 };
+//code updated
